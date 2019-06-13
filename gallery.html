@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--This page is created by: Naresh Gunimanikula, 2017-12-08 -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title> Stitch 2 Stitch </title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+   <script>
+    $(document).ready(function(){
+      $('.container1').bxSlider();
+    });
+  </script>
+  
+   <!-- <script src="javascripts.js"></script> -->
+</head>
+<body>
+  <div id="container">
+   <header>
+   <a href="index.html"><img src="images/logo2.png" alt="Stitch logo"> </a>
+   </header>
+   
+   <nav>
+	<ul>
+		<li><a href="index.html">Home </a></li>
+		<li><a href="about.html">About Us </a></li>
+		<li><a href="product.html">Product </a></li>
+		<li><a href="gallery.html">Gallery </a></li>  
+		<li><a href="contact.html">Contact Us </a></li>
+		<li><a href="join.html">Join</a></li>
+	</ul>
+   </nav>
+   <hr>
+	
+   
+   <!-- Home Page Banner -->
+   <div class="desktop">
+		<video width="400" class="banner" controls autoplay muted loop>
+			<source src="videos/1st.mp4.mp4" type="video/mp4">
+		<!--	<source src="mov_bbb.mp4" type="video/mp4"> -->
+		</video>
+	</div>
+   
+   <main>
+	<h1>PHOTO GALLERY</h1>   
+		<!-- Gallery Slider new	-->
+		<div class="container1">
+			<div class="w3-content w3-section" style="max-width:500px">
+				<img class="mySlides w3-animate-left" src="images/pro1.jpg" style="width:100%">
+				<img class="mySlides w3-animate-right" src="images/product2.jpg" style="width:100%">
+				<img class="mySlides w3-animate-left" src="images/pro3.jpg" style="width:100%">
+				<img class="mySlides w3-animate-right" src="images/product1.jpg" style="width:100%">
+			</div>
+			<!-- <script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					  x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 2500);    
+				}
+			</script> -->
+			</div>
+			<div class="center-div">
+				<audio autoplay controls loop preload>
+				<source src="audio/audio.mp3" type="audio/mp3"></source>
+			</audio>
+			</div>
+   </main>
+   
+   <footer>
+   <hr></hr>
+   &copy; Copyright 2017. All Rights Reserved.<br>
+	<a href = "mailto:info@stitch2stitch.com">Request Information</a></br>
+	<b>Naresh Gunimanikula &nbsp; &nbsp; C0719672</b>
+   </footer>
+  </div>
+</body>
+</html>
+   
+   

@@ -1,0 +1,40 @@
+/* style for tablet element */
+table {
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/*style specifies border and padding for th and td elements */
+th, td {
+	border: 0.1em solid #000000;
+	padding: 2em;
+}
+
+/*style for th element */
+th {
+	background-color: #1D1D1C;
+	color: #FFFFFF;
+}
+
+/* style for caption element*/
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+/*style rule for label element */
+label {
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 10em;
+}
+
+/*style rule for btn class */
+.btn {
+	margin-left: 12em;
+}

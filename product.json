@@ -1,0 +1,199 @@
+{
+
+   "product": [
+
+       {
+	   "name": "Stitch Quilters",
+
+           "productdetails":"images/p1.jpg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 2,
+
+            "brand": "Bernie",
+
+            "price": "99.89$"
+
+       },
+{
+	   "name": "Stitch Studio Computer Quilting",
+
+           "productdetails":"images/p2.jpeg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 1,
+
+            "brand": "Bertha",
+
+            "price": "189.42$"
+
+       },
+{
+			 "name": "Sewing Confidence Electronic",
+
+           "productdetails":"images/p3.jpg",
+
+           
+
+           "description": "Mon, wed, Fri",
+
+           "quantity": 5,
+
+            "brand": "Charlotte",
+
+            "price": "450.32$"
+
+       },
+{
+		 "name": "Sewing and Embroidery",
+
+           "productdetails":"images/p4.jpg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 2,
+
+            "brand": "Josephine",
+
+            "price": "420.00$"
+
+       },
+{
+		 "name": "Legacy Sewing Machine",
+
+           "productdetails":"images/p5.jpg",
+
+           
+
+           "description": "Mon, wed, Fri",
+
+           "quantity": 1,
+
+            "brand": "Big B",
+
+            "price": "147.59$"
+
+       },
+{
+			 "name": "Mechanical Sewing Machine",
+
+           "productdetails":"images/p6.jpg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 3,
+
+            "brand": "Elizabeth",
+
+            "price": "245.21$"
+
+       },
+{
+			 "name": "Convertible Stitch Free-Arm Sewing Machine",
+
+           "productdetails":"images/p7.jpg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 4,
+
+            "brand": "Joyce",
+
+            "price": "320.01$"
+
+       },
+{
+			"name": "Prelude Basic Sewing Machine",
+
+           "productdetails":"images/p8.jpg",
+
+           
+
+           "description": "Mon, wed, Fri",
+
+           "quantity": 2,
+
+            "brand": "Roseanne",
+
+            "price": "189.78$"
+
+       },
+{
+		"name": "Heavy-Duty Sewing Machine",
+
+           "productdetails":"images/p9.jpg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 1,
+
+            "brand": "Tinkerbell",
+
+            "price": "147.23$"
+
+       },
+{
+		"name": "Fashion Mate Sewing Machine",
+
+           "productdetails":"images/p10.jpg",
+
+           
+
+           "description": "Mon, wed, Fri",
+
+           "quantity": 3,
+
+            "brand": "Rachel",
+
+            "price": "208.23$"
+
+       },
+{
+			"name": "Feature-Rich Sewing Machine",
+
+           "productdetails":"images/p11.jpg",
+
+           
+
+           "description": "Tue, Thu",
+
+           "quantity": 2,
+
+            "brand": "Lily",
+
+            "price": "401.23$"
+
+       },
+{
+		"name": "Desktop Stitch Sewing Machine",
+
+           "productdetails":"images/p12.jpg",
+
+           
+
+           "description": "Mon, wed, Fri",
+
+           "quantity": 1,
+
+            "brand": "Pearl",
+
+            "price": "89.23$"
+
+       }
+   ]
+
+}

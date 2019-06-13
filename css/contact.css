@@ -1,0 +1,195 @@
+.wrapper {
+	max-width:500px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}
+/* #contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form input[type="tel"],
+#contact_form input[type="url"],
+#contact_form textarea,
+#contact_form button[type="submit"] {
+	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+#contact_form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background:#F9F9F9;
+	padding:25px;
+}
+#contact_form h3 {
+	color:#e67e22;
+	display:block;
+	font-size:28px;
+}
+#contact_form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+#contact_form span {
+	cursor:pointer;
+	color:#e67e22;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+#contact_form input[type="text"],
+#contact_form input[type="email"],
+#contact_form input[type="tel"],
+#contact_form input[type="url"],
+#contact_form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact_form input[type="text"]:hover,
+#contact_form input[type="email"]:hover,
+#contact_form input[type="tel"]:hover,
+#contact_form input[type="url"]:hover,
+#contact_form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact_form textarea {
+	height:100px;
+	max-width:100%;
+}
+#contact_form button {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#991D57;
+	background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact_form button:hover {
+	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact_form button:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact_form input:focus,
+#contact_form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+/*Join*/
+
+#join_form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background:#F9F9F9;
+	padding:25px;
+}
+#join_form h3 {
+	color:#e67e22;
+	display:block;
+	font-size:28px;
+}
+#join_form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+#join_form span {
+	cursor:pointer;
+	color:#e67e22;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+#join_form input[type="text"],
+#join_form input[type="email"],
+#join_form input[type="tel"],
+#join_form input[type="url"],
+#join_form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#join_form input[type="text"]:hover,
+#join_form input[type="email"]:hover,
+#join_form input[type="tel"]:hover,
+#join_form input[type="url"]:hover,
+#join_form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#join_form textarea {
+	height:100px;
+	max-width:100%;
+}
+#join_form button {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#991D57;
+	background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#join_form button:hover {
+	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#join_form button:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#join_form input:focus,
+#join_form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}

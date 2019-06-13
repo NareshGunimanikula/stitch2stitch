@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--This page is created by: Naresh gunimanikula, 2017-12-08 -->
+<html lang="en">
+<head>
+	<title> Stitch 2 Stitch </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/product.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+                               
+
+                                <script>
+
+                                $(function() {
+
+                                var people = [];
+
+                                $.getJSON('file:///F:/WORK/semester2/Web%20Tech%202/jquery_2nd/student_download/TP/product.json', function(data) {
+
+                                console.log(data);
+
+                                //var img = new Image();
+
+                                //img.src = obj.productdetails;
+
+                                                                $.each(data.product, function(i, f) {
+
+                                                                  var tblRow = "<tr>" + "<td><a href=''>" + f.name + "</a></td>"+"<td><img src='" + f.productdetails + "'></td>" + "<td>" + f.description + "</td>" + "<td>" + f.quantity + "</td>"+ "<td>" + f.brand + "</td>" +"<td>" + f.price + "</td>" + "</tr>"
+
+                                                                   $(tblRow).appendTo("#productTable tbody");
+
+                                                                });
+
+                                });
+
+                });
+
+</script>
+</head>
+<body>
+  <div id="container">
+   <header>
+   <a href="index.html"><img src="images/logo2.png" alt="Stitch logo"> </a>
+   </header>
+   
+   <nav>
+	<ul>
+		<li><a href="index.html">Home </a></li>
+		<li><a href="about.html">About Us </a></li>
+		<li><a href="product.html">Product </a></li>
+		<li><a href="gallery.html">Gallery </a></li>  
+		<li><a href="contact.html">Contact Us </a></li>
+		<li><a href="join.html">Join</a></li>
+	</ul>
+   </nav>
+   <hr>
+   <!-- Home Page Banner -->
+   <div class="desktop">
+		<img src="images/banner1.jpg" alt="home banner image" class="banner">
+	</div>
+<main>
+<!-- 	<div class="mobile">
+
+            <h1>Sewing Machine Products</h1>
+            <p>Stitch Quilters: 2 Benrnie &amp; 99.89$</p>
+            <p>Stitch Studio Computer Quilting: 1 Bertha &amp; 189.42$</p>
+            <p>Sewing Confidence Electronic: 5 Charlotte &amp; 450.32$</p>
+            <p>Sewing and Embroidery: 2 Josephine &amp; 420.00$</p>
+            <p>Legacy Sewing Machine: 1 Big B &amp; 147.59$</p>
+            <p>Mechanical Sewing Machine: 3 Elizabeth &amp; 245.21$</p>
+			<p>Convertible Stitch Free-Arm Sewing Machine: 4 Joyce &amp; 320.01$</p>
+			<p>Prelude Basic Sewing Machine: 2 Roseanne &amp; 189.78$</p>
+			<p>Heavy-Duty Sewing Machine: 1 Tinkerbell &amp; 147.23$</p>
+			<p>Fashion Mate Sewing Machine: 3 Rachel &amp; 208.23$</p>
+			<p>Feature-Rich Sewing Machine: 2 lily &amp; 401.23$</p>
+			<p>Desktop Stitch Sewing Machine: 1 pearl &amp; 89.23$</p>
+
+        </div> -->
+        <div style="overflow-x:auto;">
+		 <table id="productTable" border = "2">
+
+                                                                <thead>
+<th>Name</th>
+                                                                                <th class="colOne">Product</th>
+
+                                                                                
+
+                                                                                <th>Description</th>
+
+                                                                                <th>Quantity</th>
+
+                                                                                <th>Brand</th>
+
+                                                                                <th>Price</th>
+
+                                                                </thead>
+
+                                                                <tbody>
+
+                                                                </tbody>
+
+                                                                </table>
+           <!-- <!--  <table>
+                <caption>Sewing Machine Products</caption>
+                <tr>
+                    <th>Name</th>
+                    <th class="hide">Product</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Brand</th>
+					<th>Price</th>
+                </tr>
+                <tr>
+                    <td class="one"><a href="">Stitch Quilters</a></td>
+					<td class="hide"><img src="images/p1.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>2</td>
+                    <td>Bernie</td>
+                    <td>99.89$</td>
+				<!--	<td>B</td>
+                </tr>
+                <tr class="alt">
+                    <td class="one"><a href="">Stitch Studio Computer Quilting</a></td>
+					<td class="hide"><img src="images/p2.jpeg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>1</td>
+                    <td>Bertha</td>
+                    <td>189.42$</td>
+                </tr>
+                <tr>
+                    <td class="one"><a href="">Sewing Confidence Electronic</a></td>
+					<td class="hide"><img src="images/p3.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Mon, wed, Fri</td>
+                    <td>5</td>
+                    <td>Charlotte</td>
+                    <td>450.32$</td>
+                </tr>
+                <tr class="alt">
+                    <td class="one"><a href="">Sewing and Embroidery</a></td>
+					<td class="hide"><img src="images/p4.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>2</td>
+                    <td>Josephine</td>
+                    <td>420.00$</td>
+                </tr>
+                <tr>
+                    <td class="one"><a href="">Legacy Sewing Machine</a></td>
+					<td class="hide"><img src="images/p5.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Mon, wed, Fri</td>
+                    <td>1</td>
+                    <td>Big B</td>
+                    <td>147.59$</td>
+                </tr>
+				<tr class="alt">
+                    <td class="one"><a href="">Mechanical Sewing Machine</a></td>
+					<td class="hide"><img src="images/p6.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>3</td>
+                    <td>Elizabeth</td>
+                    <td>245.21$</td>
+                </tr>
+                <tr>
+                    <td class="one"><a href="">Convertible Stitch Free-Arm Sewing Machine</a></td>
+					<td class="hide"><img src="images/p7.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>4</td>
+                    <td>Joyce</td>
+                    <td>320.01$</td>
+                </tr>
+                <tr class="alt">
+                    <td class="one"><a href="">Prelude Basic Sewing Machine</a></td>
+					<td class="hide"><img src="images/p8.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Mon, wed, Fri</td>
+                    <td>2</td>
+                    <td>Roseanne</td>
+                    <td>189.78$</td>
+                </tr>
+                <tr>
+                    <td class="one"><a href="">Heavy-Duty Sewing Machine</a></td>
+					<td class="hide"><img src="images/p9.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>1</td>
+                    <td>Tinkerbell</td>
+                    <td>147.23$</td>
+                </tr>
+                <tr class="alt">
+                    <td class="one"><a href="">Fashion Mate Sewing Machine</a></td>
+					<td class="hide"><img src="images/p10.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Mon, wed, Fri</td>
+                    <td>3</td>
+                    <td>Rachel</td>
+                    <td>208.23$</td>
+                </tr>
+				<tr>
+                    <td class="one"><a href="">Feature-Rich Sewing Machine</a></td>
+					<td class="hide"><img src="images/p11.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Tue, Thu</td>
+                    <td>2</td>
+                    <td>Lily</td>
+                    <td>401.23$</td>
+                </tr>
+                <tr class="alt">
+                    <td class="one"><a href="">Desktop Stitch Sewing Machine</a></td>
+					<td class="hide"><img src="images/p12.jpg" style="position:relative;width:20em;" alt="product"></td>
+                    <td>Mon, wed, Fri</td>
+                    <td>1</td>
+                    <td>Pearl</td>
+                    <td>89.23$</td>
+                </tr>
+            </table> --> <!--End Table-->
+        </div>
+</main>
+
+   <footer>
+   <hr></hr>
+   &copy; Copyright 2017. All Rights Reserved.<br>
+	<a href = "mailto:info@stitch2stitch.com">Request Information</a></br>
+	<b>Naresh Gunimanikula &nbsp; &nbsp; C0719672</b>
+   </footer>
+  </div>
+</body>
+</html>
+   
+   

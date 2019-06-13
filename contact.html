@@ -1,0 +1,128 @@
+<!-- <!DOCTYPE html>
+<!--This page is created by: Naresh Gunimanikula, 2017-12-08 -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+   <title> Stitch 2 Stitch </title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/contact.css">
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="jquery/validation.js"> </script>
+		<script src="jquery/jquery.validate.min.js"></script>
+		<script src="jquery/additional-methods.min.js"></script>	
+		<script>
+			$(document).ready(function(){
+			var geocoder = new google.maps.Geocoder();
+		
+ 			geocoder.geocode({address: "1457 London Rd, Sarnia, ON N7S 6K4"}, function(results) {			
+			}); 
+		
+			var myLatLng = new google.maps.LatLng(42.975482, -82.347308);
+			geocoder.geocode({location: myLatLng}, function(results) {
+				var mapOptions = {zoom: 8, center: myLatLng, mapTypeId: google.maps.MapTypeId.ROADMAP}
+				var map = new google.maps.Map($("#map").get(0), mapOptions);
+			
+				var marker = new google.maps.Marker( {
+					position: myLatLng,
+					map: map		
+				});			
+			});		
+		});
+		
+			window.onload = function(){
+			 document.getElementById("first_name").value = "";
+			 document.getElementById("last_name").value = "";
+			 document.getElementById("mob").value = "";
+			 document.getElementById("email").value = "";
+			 document.getElementById("message").value = "";
+			};
+			$(document).ready(function() {
+	$('#reset').click( function(){
+		document.getElementById("first_name").value = "";
+		 document.getElementById("last_name").value = "";
+		 document.getElementById("mob").value = "";
+		 document.getElementById("email").value = "";
+		 document.getElementById("message").value = "";
+	});
+});
+		</script>
+</head>
+<body>
+  <div id="container">
+   <header>
+   <a href="index.html"><img src="images/logo2.png" alt="Stitch logo"> </a>
+   </header>
+   
+   <nav>
+	<ul>
+		<li><a href="index.html">Home </a></li>
+		<li><a href="about.html">About Us </a></li>
+		<li><a href="product.html">Product </a></li>
+		<li><a href="gallery.html">Gallery </a></li>  
+		<li><a href="contact.html">Contact Us </a></li>
+		<li><a href="join.html">Join</a></li>
+	</ul>
+   </nav>
+   <hr>
+   <!-- Home Page Banner -->
+   <div class="desktop">
+		<img src="images/banner1.jpg" alt="home banner image" class="banner">
+	</div>
+   
+   <main>
+	  			  <div class="jumbotron">
+				  <h1>CONTACT US</h1>
+				  
+
+						<form id="contact_form" name="contact_form" action="thankYouPage.html" method="get">
+			
+			<div>
+					<span>First Name: (required)</span>
+					<input id="first_name" name="first_name" placeholder="Please enter your first name" type="text" tabindex="1">
+			</div>
+			<div>
+					<span>Last Name: (required)</span>
+					<input id="last_name" name= "last_name" placeholder="Please enter your last name" type="text" tabindex="2">
+			</div>
+			<div>
+					<span>Email: (required)</span>
+					<input id = "email" name="email" placeholder="Please enter your email address" type="email" tabindex="3" >
+			</div>
+			<div>
+					<span>Phone: (required)</span>
+					<input id="mob" name="mob" placeholder="Please enter your number" type="tel" tabindex="4">
+			</div>
+			<div>
+					<span>Message: (required)</span>
+					<textarea id = "message" name = "message" placeholder="Include all the details you can" tabindex="5" ></textarea>
+			</div>
+			<div>
+			<button type="submit" id="submit"  >SUBMIT</button>
+				<button type="reset" id="reset" >RESET</button>
+			</div>
+		</form>
+					</div>
+
+
+	  <br><br>
+<div class="jumbotron">
+<h1>LOCATION</h1>
+<div id="map" style="width:100%; height:500px"></div>
+</div>
+   </main>
+
+  <div>
+   <footer>
+   <hr></hr>
+   &copy; Copyright 2017. All Rights Reserved.<br>
+	<a href = "mailto:info@stitch2stitch.com">Request Information</a></br>
+	<b>Naresh Gunimanikula &nbsp; &nbsp; C0719672</b>
+   </footer>
+  </div>
+</body>
+</html>
+   
+    -->
